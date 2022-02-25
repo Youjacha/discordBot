@@ -1,10 +1,9 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-
 module.exports = {
     data: new SlashCommandBuilder()
-		.setName('사회주의')
-		.setDescription('위업수행'),
+    .setName('로동자')
+    .setDescription('혁명'),
 	async execute(interaction) {
-		await interaction.reply('위업수행');
+		await interaction.reply('혁명');
 	},
 }
